@@ -21,5 +21,15 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "api-gateway": {
+      "tags": []
+    },
+    "todo": {
+      "tags": []
+    },
+    "interfaces": {
+      "tags": []
+    }
+  }
 }
