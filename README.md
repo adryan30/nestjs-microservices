@@ -35,7 +35,7 @@
 It is necessary that you install:
 
 - [Node.js](https://nodejs.org/)
-- NPM ([Yarn v1](https://classic.yarnpkg.com/lang/en/) recomendado)
+- NPM ([Yarn v1](https://classic.yarnpkg.com/lang/en/) recommended)
 - [Git](https://git-scm.com/)
 - [Docker](https://www.docker.com/)
 
@@ -53,7 +53,7 @@ git clone https://github.com/adryan30/nestjs-microservices.git
 # Via NPM
 npm install
 
-# Via yarn (recomendado)
+# Via yarn (recommended)
 yarn install
 ```
 
@@ -72,7 +72,7 @@ yarn docker:prod
 
 ## Licença
 
-Distribuido sobre a licença `MIT`. Veja `LICENSE.md` para mais informações.
+Distributed under the `MIT` license. See `LICENSE.md` for more details.
 
 <!-- CONTACT -->
 
