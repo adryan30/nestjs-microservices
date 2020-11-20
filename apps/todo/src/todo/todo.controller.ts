@@ -10,18 +10,18 @@ export class TodoController {
   constructor(private readonly todoService: TodoService) {}
 
   @MessagePattern('addTodo')
-  addTodo(title: string): Todo {
-    return this.todoService.addTodo(title);
+  async addTodo(title: string): Promise<Todo> {
+    return await this.todoService.addTodo(title);
   }
 
   @MessagePattern('getTodos')
-  getTodos(): Todo[] {
-    return this.todoService.getTodos();
+  async getTodos(): Promise<Todo[]> {
+    return await this.todoService.getTodos();
   }
 
   @MessagePattern('updateTodo')
-  updateTodo(newData: Todo): Todo {
-    return this.todoService.updateTodo(newData);
+  async updateTodo(newData: Todo): Promise<Todo> {
+    return await this.todoService.updateTodo(newData);
   }
 
   @MessagePattern('deleteTodo')

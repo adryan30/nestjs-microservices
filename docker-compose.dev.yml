@@ -29,3 +29,12 @@ services:
     command: redis-server
     ports:
       - 6379:6379
+  db:
+    container_name: db-poc
+    image: postgres:12
+    environment:
+      POSTGRES_DB: poc
+      POSTGRES_USER: poc
+      POSTGRES_PASSWORD: poc
+    ports:
+      - 5432:5432

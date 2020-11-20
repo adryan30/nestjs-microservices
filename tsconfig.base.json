@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@poc/interfaces": ["libs/interfaces/src/index.ts"]
+      "@poc/interfaces": ["libs/interfaces/src/index.ts"],
+      "@poc/entities": ["libs/entities/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

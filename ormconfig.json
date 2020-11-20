@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "db",
+  "port": 5432,
+  "username": "poc",
+  "password": "poc",
+  "database": "poc",
+  "entities": ["libs/entities/src/lib/*.entity.ts"],
+  "migrations": ["tools/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "tools/migrations"
+  }
+}

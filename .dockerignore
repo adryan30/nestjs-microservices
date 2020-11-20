@@ -1,7 +1,7 @@
 node_modules
 coverage
 docker
-tools
+# tools
 Dockerfile*
 README.md
 LICENSE
